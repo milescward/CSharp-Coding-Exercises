@@ -10,9 +10,9 @@ Questions from LeetCode.com are prefixed by lc
 
 ### CODING PUZZLES AND PRACTICE
 
-- [ x ] LeetCode TwoSum (icTwoSum.cs)
-- [ x ] LeetCode ValidPalindrome (icValidPalindrome.cs)
-- [ x ] LeetCode RomanToInteger (icRomanToInt.cs)
+- [X] LeetCode TwoSum (icTwoSum.cs)
+- [X] LeetCode ValidPalindrome (icValidPalindrome.cs)
+- [ X ] LeetCode RomanToInteger (icRomanToInt.cs)
 - [ x ] LeetCode NumberIsPalindrome (icNumberIsPalindrome.cs)
 - [ x ] Cracking the Coding Interview PermutationIsPalindrome (icPermutationIsPalindrome.cs)
 - [ x ] Cracking the Coding Interview URLify (icURLify.cs)
