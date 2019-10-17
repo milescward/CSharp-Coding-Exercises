@@ -7,25 +7,25 @@ Questions from LeetCode.com are prefixed by lc
 ALGORITMS
 ---------
 ### Sorting
-- [  ] Quick sort
-- [  ] Merge sort
-- [  ] Bubble sort
+- [ ] Quick sort
+- [ ] Merge sort
+- [ ] Bubble sort
 - [ ] Selection sort
 ### Searching
 - [X] Binary Search
-- [] Linear Search
+- [ ] Linear Search
 
 DATA STRUCTURES
 ---------------
 
 ### Binary Trees
-- [] 
+- [ ] 
 ### Stacks
-- [] 
-- [] 
+- [ ] 
+- [ ] 
 ### Queues
-- [] 
-- [] 
+- [ ] 
+- [ ] 
 ### Linked Lists
 - [X] Reverse Singly Linked List (ReverseSinglyLinkedList.cs)
 - [X] Reverse Doubly Linked List (ReverseDoublyLinkedList.cs)
