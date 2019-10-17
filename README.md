@@ -7,10 +7,10 @@ Questions from LeetCode.com are prefixed by lc
 ALGORITMS
 ---------
 ### Sorting
-- [ ] Quick sort
-- [ ] Merge sort
-- [ ] Bubble sort
-- [ ] Selection sort
+- [X] Quick sort
+- [X] Merge sort
+- [X] Bubble sort
+- [X] Selection sort
 ### Searching
 - [X] Binary Search (lcBinarySearach.cs)
 - [ ] Linear Search
@@ -42,3 +42,5 @@ DATA STRUCTURES
 - [X] LeetCode Longest Common Prefix (lcLongestCommonPrefix.cs)
 - [X] LeetCode Jewels and Stones (lcJewelsAndStones.cs)
 - [X] LeetCode Binary Search (lcBinarySearach.cs)
+- [X] LeetCode Single Number (lcSingleNum.cs)
+
