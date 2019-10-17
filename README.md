@@ -4,12 +4,16 @@ My practice and solutions to common algorithms, data structures, and coding puzz
 Questions from Cracking the Coding Interview are prefixed by cci
 Questions from LeetCode.com are prefixed by lc
 
-ALGORITHMS
-----------
+### ALGORITHMS
 
-DATA STRUCTURES
----------------
+### DATA STRUCTURES
 
-CODING PUZZLES
---------------
-- [ ] LeetCode TwoSum (icTwoSum.cs)
+### CODING PUZZLES AND PRACTICE
+
+- [ x ] LeetCode TwoSum (icTwoSum.cs)
+- [ x ] LeetCode ValidPalindrome (icValidPalindrome.cs)
+- [ x ] LeetCode RomanToInteger (icRomanToInt.cs)
+- [ x ] LeetCode NumberIsPalindrome (icNumberIsPalindrome.cs)
+- [ x ] Cracking the Coding Interview PermutationIsPalindrome (icPermutationIsPalindrome.cs)
+- [ x ] Cracking the Coding Interview URLify (icURLify.cs)
+- [ x ] LeetCode TwoSum (icTwoSum.cs)
