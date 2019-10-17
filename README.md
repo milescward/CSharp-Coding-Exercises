@@ -12,34 +12,33 @@ ALGORITMS
 - [ ] Bubble sort
 - [ ] Selection sort
 ### Searching
-- [X] Binary Search
+- [X] Binary Search (lcBinarySearach.cs)
 - [ ] Linear Search
 
 DATA STRUCTURES
 ---------------
 ### Binary Trees
-- [ ] 
 ### Stacks
-- [ ] 
-- [ ] 
+- [ ] Leet Code Climbing Stairs
+- [ ] Leet Code Min Stack
 ### Queues
-- [ ] 
-- [ ] 
+- [ ] Leet Code Range Sum Query
+- [ ] Leet Code Lemonade Change
 ### Linked Lists
 - [X] Reverse Singly Linked List (ReverseSinglyLinkedList.cs)
 - [X] Reverse Doubly Linked List (ReverseDoublyLinkedList.cs)
 
 ### CODING PUZZLES AND PRACTICE
 
-- [X] LeetCode TwoSum (icTwoSum.cs)
-- [X] LeetCode ValidPalindrome (icValidPalindrome.cs)
-- [X] LeetCode RomanToInteger (icRomanToInt.cs)
-- [X] LeetCode NumberIsPalindrome (icNumberIsPalindrome.cs)
+- [X] LeetCode TwoSum (lcTwoSum.cs)
+- [X] LeetCode ValidPalindrome (lcValidPalindrome.cs)
+- [X] LeetCode RomanToInteger (lcRomanToInt.cs)
+- [X] LeetCode NumberIsPalindrome (lcNumberIsPalindrome.cs)
 - [X] Cracking the Coding Interview PermutationIsPalindrome (cciPermutationIsPalindrome.cs)
 - [X] Cracking the Coding Interview URLify (cciURLify.cs)
-- [X] LeetCode Rotate Array 
-- [X] LeetCode Reverse Integer
-- [X] LeetCode Plus One
-- [X] LeetCode Longest Common Prefix
-- [X] LeetCode Jewels and Stones
-- [X] LeetCode Binary Search
+- [X] LeetCode Rotate Array (lcRotateArray.cs)
+- [X] LeetCode Reverse Integer (lcReverseInteger.cs)
+- [X] LeetCode Plus One (lcPlusOne.cs)
+- [X] LeetCode Longest Common Prefix (lcLongestCommonPrefix.cs)
+- [X] LeetCode Jewels and Stones (lcJewelsAndStones.cs)
+- [X] LeetCode Binary Search (lcBinarySearach.cs)
