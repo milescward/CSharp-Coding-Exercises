@@ -7,10 +7,10 @@ Questions from LeetCode.com are prefixed by lc
 ALGORITMS
 ---------
 ### Sorting
-- [] Quick sort
-- [] Merge sort
-- [] Bubble sort
-- [] Selection sort
+- [  ] Quick sort
+- [  ] Merge sort
+- [  ] Bubble sort
+- [ ] Selection sort
 ### Searching
 - [X] Binary Search
 - [] Linear Search
