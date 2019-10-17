@@ -17,7 +17,6 @@ ALGORITMS
 
 DATA STRUCTURES
 ---------------
-
 ### Binary Trees
 - [ ] 
 ### Stacks
