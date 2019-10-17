@@ -12,4 +12,4 @@ DATA STRUCTURES
 
 CODING PUZZLES
 --------------
-[ ] LeetCode TwoSum (icTwoSum.cs)
+- [ ] LeetCode TwoSum (icTwoSum.cs)
