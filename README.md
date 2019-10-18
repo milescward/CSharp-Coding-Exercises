@@ -43,5 +43,6 @@ DATA STRUCTURES
 - [X] LeetCode Jewels and Stones (lcJewelsAndStones.cs)
 - [X] LeetCode Binary Search (lcBinarySearach.cs)
 - [X] LeetCode Single Number (lcSingleNum.cs)
-- [X] LeetCode Reverse words in a String (lcReverseWordsInString.cs)
+- [X] LeetCode Reverse words in a String (lcReverseWordsInString.cs) - Medium
 - [X] Pattern Matching (PatternMatching.cs)
+- [X] LeetCode Squares of a Sorted Array (lcSquaresOfASequence.cs)
