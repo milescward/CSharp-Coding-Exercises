@@ -47,3 +47,5 @@ DATA STRUCTURES
 - [X] Pattern Matching (PatternMatching.cs)
 - [X] LeetCode Squares of a Sorted Array (lcSquaresOfASequence.cs)
 - [X] LeetCode Unique Morse Code Words (lcAlphaToMorse.cs)
+- [X] LeetCode FizzBuzz (lcFizzBuzz.cs)
+- [ ] LeetCode Long Pressed Name (lcLongPressedName.cs)
