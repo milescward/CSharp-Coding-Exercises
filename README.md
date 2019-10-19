@@ -46,3 +46,4 @@ DATA STRUCTURES
 - [X] LeetCode Reverse words in a String (lcReverseWordsInString.cs) - Medium
 - [X] Pattern Matching (PatternMatching.cs)
 - [X] LeetCode Squares of a Sorted Array (lcSquaresOfASequence.cs)
+- [X] LeetCode Unique Morse Code Words (lcAlphaToMorse.cs)
