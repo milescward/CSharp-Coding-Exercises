@@ -6,7 +6,7 @@ namespace CSharp_Practice
         {
             for (int i = 0; i < nums.Length - 1; i++)
             {
-                for (int j = 0; j < nums.Length - 1; j++)
+                for (int j = 0; j < (nums.Length - 1) - i; j++)
                 {
                     if (nums[j] > nums[j + 1])
                     {
@@ -15,9 +15,30 @@ namespace CSharp_Practice
                         nums[j + 1] = temp;
                     }
                 }
-
             }
-            //return sorted list
+        }
+
+        // Searching through an array in linear time
+        public void BubbleSrtBetter(int[] nums)
+        {
+            for (int i = 0; i < nums.Length - 1; i++)
+            {
+                for (int j = 0; j < (nums.Length - 1) - i; j++)
+                {
+                    bool swapped = false;
+                    if (nums[j] > nums[j + 1])
+                    {
+                        int temp = nums[j];
+                        nums[j] = nums[j + 1];
+                        nums[j + 1] = temp;
+                        swapped = true;
+                    }
+                    if (!swapped)
+                    {
+                        return;
+                    }
+                }
+            }
         }
     }
 }

@@ -2,42 +2,22 @@ namespace CSharp_Practice
 {
     public class BinarySearch
     {
-        public int BinSearch(int[] nums, int target) {
-            int n = nums.Length;
-            int high = nums.Length;
-            int low = 0;
-            int middle = n / 2;
-            if (nums[middle] == target)
+        public int BinSearch2(int[] arr, int target)
+        {
+            int l = 0;
+            int r = arr.Length -1;
+            int middle = (l + r) / 2;
+            while (l <= r)
             {
-                return middle;
-            }
-            while (nums[middle] != target)
-            {
-                if (middle == low)
-                {
-                    break;
-                }
-                else if (nums[middle] > target)
-                {
-                    high = middle;
-                    middle = (high + low) / 2;
-                }
-                else if (nums[middle] < target)
-                {
-                    low = middle;
-                    middle = (high + low) / 2;
-                }
+                if (arr[middle] ==  target)
+                    return middle;
+                else if (arr[middle] > target)
+                    r = middle - 1;
                 else
-                {
-                    return -1;
-                }
-
-            }
-            if (nums[middle] == target)
-            {
-                return middle;
+                    l = middle + 1;
+                middle = (l + r) / 2;
             }
             return -1;
-    }
+        }
     }
 }
