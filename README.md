@@ -19,7 +19,6 @@ DATA STRUCTURES
 ---------------
 ### Binary Trees
 ### Stacks
-- [ ] Leet Code Climbing Stairs
 - [ ] Leet Code Min Stack
 ### Queues
 - [ ] Leet Code Range Sum Query
