@@ -2,6 +2,7 @@ namespace CSharp_Practice
 {
     public class MergeSort
     {
+        /*
         public int[] MergeSrt(int[] nums)
         {
             //this is recursive, so its going to call itself
@@ -75,6 +76,61 @@ namespace CSharp_Practice
                 i++;
             }
             return result;
+        }
+        */
+
+        public static void MergeSortStart(int[] arr)
+        {
+            int[] tmp = new int[arr.Length];
+            MergeSortHelper(arr, 0, arr.Length - 1, tmp);
+        }
+        public static void MergeSortHelper(int[] arr, int start, int end, int[] tmp)
+        {
+            if (start < end)
+            {
+                int mid = (start + end) / 2;
+                MergeSortHelper(arr, start, mid, tmp);
+                MergeSortHelper(arr, mid+1, end, tmp);
+                Merge(arr, start, mid, mid+1, end, tmp);
+            }
+        }
+
+        public static void Merge(int[] arr, int startA, int endA, int startB, int endB, int[] tmp)
+        {
+            int i = startA;
+            int j = startB;
+            int k = startA;
+            while(i <= endA && j <= endB)
+            {
+                if (arr[i] <= arr[j])
+            {
+                tmp[k] = arr[i];
+                i++;
+                k++;
+            }
+                else
+                {
+                    tmp[k] = arr[j];
+                    j++;
+                    k++;
+                }
+            }
+            while (i <= endA)
+            {
+                tmp[k] = arr[i];
+                i++;
+                k++;
+            }
+            while (j <= endB)
+            {
+                tmp[k] = arr[j];
+                j++;
+                k++;
+            }
+            for (k = startA; k < endB; k++)
+            {
+                arr[k] = tmp[k];
+            }
         }
     }
 }

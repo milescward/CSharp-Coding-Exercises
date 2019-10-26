@@ -2,7 +2,7 @@ namespace CSharp_Practice
 {
     public class SelectionSort
     {
-        public void SelectedSort(int[] nums)
+        public void SelectionSortM(int[] nums)
         {
             int smallest;
             for (int i = 0; i < nums.Length - 1; i++)
@@ -20,5 +20,25 @@ namespace CSharp_Practice
                 nums[smallest] = temp;
             }
         }
+
+        public void SelectionSortRecursive(int[] arr, int startIndex)
+        {
+            int smallest = startIndex;
+            for (int i = smallest + 1; i < arr.Length; i++)
+            {
+                if (arr[i] < arr[smallest])
+                {
+                    smallest = i;
+                }
+                int temp = i;
+                arr[i] = arr[smallest];
+                arr[smallest] = temp;
+            }
+            if (startIndex + 1 < arr.Length-1)
+            {
+                SelectionSortRecursive(arr, startIndex + 1);
+            }
+        }
+
     }
 }
