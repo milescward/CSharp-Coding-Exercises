@@ -52,3 +52,6 @@ DATA STRUCTURES
 - [X] LeetCode Fibonacci Sequence (Fibonacci.cs)
 - [X] LeetCode Tribonacci Sequence (lcTribonacci.cs)
 - [X] LeetCode Climbing Stairs (lcClimbingStairs.cs)
+- [X] LeetCode Sum of Square numbers (lcSumOfSquareNumbers.cs)
+- [X] LeetCode Sum of smallest member of an array (lcSumOfSmallestNumInArray.cs)
+- [X] LeetCode Valid Perfect Square (lcValidPerfectSquare.cs)
