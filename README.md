@@ -7,19 +7,18 @@ Questions from LeetCode.com are prefixed by lc
 ALGORITMS
 ---------
 ### Sorting
-- [X] Quick sort
+- [ ] Quick sort
 - [X] Merge sort
 - [X] Bubble sort
 - [X] Selection sort
 ### Searching
 - [X] Binary Search (lcBinarySearach.cs)
-- [ ] Linear Search
+- [X] Linear Search
 
 DATA STRUCTURES
 ---------------
 ### Binary Trees
 ### Stacks
-- [ ] Leet Code Climbing Stairs
 - [ ] Leet Code Min Stack
 ### Queues
 - [ ] Leet Code Range Sum Query
@@ -52,3 +51,6 @@ DATA STRUCTURES
 - [X] LeetCode Fibonacci Sequence (Fibonacci.cs)
 - [X] LeetCode Tribonacci Sequence (lcTribonacci.cs)
 - [X] LeetCode Climbing Stairs (lcClimbingStairs.cs)
+- [X] LeetCode Sum of Square numbers (lcSumOfSquareNumbers.cs)
+- [X] LeetCode Sum of smallest member of an array (lcSumOfSmallestNumInArray.cs)
+- [X] LeetCode Valid Perfect Square (lcValidPerfectSquare.cs)
