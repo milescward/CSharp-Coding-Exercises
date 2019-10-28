@@ -54,3 +54,4 @@ DATA STRUCTURES
 - [X] LeetCode Sum of Square numbers (lcSumOfSquareNumbers.cs)
 - [X] LeetCode Sum of smallest member of an array (lcSumOfSmallestNumInArray.cs)
 - [X] LeetCode Valid Perfect Square (lcValidPerfectSquare.cs)
+- [X] LeetCode Valid Parentheses (lcValidParentheses.cs)
