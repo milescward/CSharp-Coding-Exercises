@@ -11,7 +11,7 @@ Questions from LeetCode.com are prefixed by lc
 - [X] Merge sort
 - [X] Bubble sort
 - [X] Selection sort
----------------------
+
 ###### Searching
 - [X] Binary Search (lcBinarySearach.cs)
 - [X] Linear Search
@@ -32,7 +32,7 @@ Questions from LeetCode.com are prefixed by lc
 - [X] Reverse Doubly Linked List (ReverseDoublyLinkedList.cs)
 
 ### CODING PUZZLES AND PRACTICE
-
+-------------------------------
 ###### LEETCODE
 
 - [X] LeetCode TwoSum (lcTwoSum.cs)
