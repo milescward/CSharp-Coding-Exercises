@@ -72,7 +72,7 @@ namespace Practice
                     pointer.Next = Head;
                     Head = pointer;
                     pointer = pointer2;
-                    if (pointer2.Next != null)
+                    if (pointer2 != null)
                     {
                         pointer2 = pointer2.Next;
                     }
@@ -102,7 +102,7 @@ namespace Practice
                     Head = pointer;
 
                     pointer = pointer2;
-                    if (pointer2.Next != null)
+                    if (pointer2 != null)
                     {
                         pointer2 = pointer2.Next;
                     }
