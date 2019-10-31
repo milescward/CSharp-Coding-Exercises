@@ -1,5 +1,5 @@
 # C\# Practice
-### My practice and solutions to common algorithms, data structures, and coding puzzles.
+### My practice with and solutions to common algorithms, data structures, and coding puzzles.
 
 Questions from Cracking the Coding Interview are prefixed by Cci
 
