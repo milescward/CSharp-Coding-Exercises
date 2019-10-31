@@ -95,6 +95,7 @@ namespace Practice
                 Node pointer = Head.Next;
                 Node pointer2 = Head.Next.Next;
 
+
                 Head.Next = null;
                 do
                 {
