@@ -8,7 +8,7 @@ Questions from LeetCode.com are prefixed by lc
 ### ALGORITHMS
 -------------
 ###### Sorting
-- [ ] Quick sort
+- [X] Quick sort
 - [X] Merge sort
 - [X] Bubble sort
 - [X] Selection sort
