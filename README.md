@@ -1,40 +1,44 @@
-# CSharp-Practice
-My practice and solutions to common algorithms, data structures, and coding puzzles.
+# CSharp Practice
+### My practice and solutions to common algorithms, data structures, and coding puzzles.
 
 Questions from Cracking the Coding Interview are prefixed by cci
 Questions from LeetCode.com are prefixed by lc
 
-ALGORITMS
----------
-### Sorting
+### ALGORITMS
+-------------
+###### Sorting
 - [ ] Quick sort
 - [X] Merge sort
 - [X] Bubble sort
 - [X] Selection sort
-### Searching
+---------------------
+###### Searching
 - [X] Binary Search (lcBinarySearach.cs)
 - [X] Linear Search
 
-DATA STRUCTURES
+### DATA STRUCTURES
 ---------------
-### Binary Trees
-### Stacks
+###### Binary Trees
+
+###### Stacks
 - [ ] Leet Code Min Stack
-### Queues
+
+###### Queues
 - [ ] Leet Code Range Sum Query
 - [ ] Leet Code Lemonade Change
-### Linked Lists
+
+###### Linked Lists
 - [X] Reverse Singly Linked List (ReverseSinglyLinkedList.cs)
 - [X] Reverse Doubly Linked List (ReverseDoublyLinkedList.cs)
 
 ### CODING PUZZLES AND PRACTICE
 
+###### LEETCODE
+
 - [X] LeetCode TwoSum (lcTwoSum.cs)
 - [X] LeetCode ValidPalindrome (lcValidPalindrome.cs)
 - [X] LeetCode RomanToInteger (lcRomanToInt.cs)
 - [X] LeetCode NumberIsPalindrome (lcNumberIsPalindrome.cs)
-- [X] Cracking the Coding Interview PermutationIsPalindrome (cciPermutationIsPalindrome.cs)
-- [X] Cracking the Coding Interview URLify (cciURLify.cs)
 - [X] LeetCode Rotate Array (lcRotateArray.cs)
 - [X] LeetCode Reverse Integer (lcReverseInteger.cs)
 - [X] LeetCode Plus One (lcPlusOne.cs)
@@ -55,3 +59,8 @@ DATA STRUCTURES
 - [X] LeetCode Sum of smallest member of an array (lcSumOfSmallestNumInArray.cs)
 - [X] LeetCode Valid Perfect Square (lcValidPerfectSquare.cs)
 - [X] LeetCode Valid Parentheses (lcValidParentheses.cs)
+
+###### CRACKING THE CODING INTERVIEW
+
+- [X] Cracking the Coding Interview PermutationIsPalindrome (cciPermutationIsPalindrome.cs)
+- [X] Cracking the Coding Interview URLify (cciURLify.cs)
