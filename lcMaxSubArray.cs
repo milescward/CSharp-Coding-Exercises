@@ -2,6 +2,7 @@ namespace CSharp_Practice
 {
     public class lcMaxSubArray
     {
+        
         public int MaxSubArray(int[] nums) {
             if (nums.Length == 1)
                 return nums[0];
