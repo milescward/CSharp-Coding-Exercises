@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace CSharp_Practice
 {
     public class Fibonacci
@@ -14,23 +17,74 @@ namespace CSharp_Practice
 
         //this soltuion runs faster than 99.3% of 
         //submissions
-        public int Fib(int N) {
-        if (N == 0 || N == 1)
+        public int Fib(int N) 
         {
-            return N;
+            if (N == 0 || N == 1)
+            {
+                return N;
+            }
+            int n2 = 0;
+            int n1 = 1;
+            int newNum = 0;
+            int i = 2;
+            while(i <= N)
+            {
+            newNum = n2 + n1;
+                n2 = n1;
+                n1 = newNum;
+                i++; 
+            }
+            return newNum;
         }
-        int n2 = 0;
-        int n1 = 1;
-        int newNum = 0;
-        int i = 2;
-        while(i <= N)
+
+        public int fib2(int n)
         {
-           newNum = n2 + n1;
-            n2 = n1;
-            n1 = newNum;
-            i++; 
+            if (n < 0)
+            {
+                throw new Exception("Should be positive");
+            }
+            else if (n == 0)
+            {
+                return 0;
+            }
+            else if (n == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return fib2(n-1) + fib2(n-2);
+            }
         }
-        return newNum;
+
+        public Dictionary<int,int> d = new Dictionary<int, int>();
+        public int fibMemoization(int n)
+        {
+            if (d.ContainsKey(n))
+            {
+                return d[n];
+            }
+            else
+            {
+                if (n < 0)
+                {
+                    throw new Exception("Should be positive");
+                }
+                else if (n == 0)
+                {
+                    return 0;
+                }
+                else if (n == 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    int ret = fib2(n-1) + fib2(n-2);
+                    d[n] = ret;
+                    return ret;
+                }
+            }
         }
     }
 }
