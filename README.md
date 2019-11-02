@@ -25,7 +25,7 @@ Questions from LeetCode.com are prefixed by lc
 - [ ] Leet Code Min Stack
 
 ###### Queues
-- [ ] Leet Code Range Sum Query
+- [X] Leet Code Range Sum Query
 - [ ] Leet Code Lemonade Change
 
 ###### Linked Lists
