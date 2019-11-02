@@ -60,6 +60,7 @@ Questions from LeetCode.com are prefixed by lc
 - [X] LeetCode Sum of smallest member of an array (lcSumOfSmallestNumInArray.cs)
 - [X] LeetCode Valid Perfect Square (lcValidPerfectSquare.cs)
 - [X] LeetCode Valid Parentheses (lcValidParentheses.cs)
+- [X] LeetCode Merge Two Sorted Lists (lcMergeTwoSortedLinkedLists.cs)
 
 ###### CRACKING THE CODING INTERVIEW
 
