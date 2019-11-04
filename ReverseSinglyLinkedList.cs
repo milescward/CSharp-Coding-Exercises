@@ -13,7 +13,7 @@ namespace Practice
 
         public Node(int someValue)
         {
-            Value = someValue;
+            this.Value = someValue;
         }
     }
 
