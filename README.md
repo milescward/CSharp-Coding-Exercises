@@ -63,6 +63,9 @@ Questions from LeetCode.com are prefixed by lc
 - [X] LeetCode Merge Two Sorted Lists (lcMergeTwoSortedLinkedLists.cs)
 - [X] LeetCode Palindrome Linked List (lcPalindromeLinkedList.cs)
 - [X] LeetCode Reverse Linked List ii (lcReverseLinkedListii.cs)
+- [X] LeetCode Number of Islands (lcNumIsland.cs)
+- [X] LeetCode SearchMatrix ii (lcSearchMatrixii.cs)
+- [X] LeetCode Find Intersection (lcReverseLinkedListii.cs)
 
 ###### CRACKING THE CODING INTERVIEW
 
