@@ -1,8 +1,8 @@
 namespace CSharp_Practice
 {
-    public class lcSearchMatrix
+    public class lcSearchMatrixii
     {
-        public bool SearchMatrix(int[,] matrix, int target) 
+        public bool SearchMatrixii(int[,] matrix, int target) 
         {
             //number of rows
             int numRows = matrix.GetLength(0);
