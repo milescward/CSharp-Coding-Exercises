@@ -5,7 +5,7 @@ namespace CSharp_Practice
     public class ReverseInteger
     {
         public int Reverse(int x) 
-    {
+    { 
         try
             {
                 bool isNegative = false;
