@@ -55,18 +55,19 @@ namespace Practice
             }
         }
 
-        public Node ReverseList(Node head) {
-        if (head == null || head.Next == null)
+        public Node ReverseList(Node head) 
         {
-            return head;
+            if (head == null || head.Next == null)
+            {
+                return head;
+            }
+            
+            Node newHead = ReverseList(head.Next);
+            head.Next.Next = head;
+            head.Next = null;
+            
+            return newHead;
         }
-        
-        Node newHead = ReverseList(head.Next);
-        head.Next.Next = head;
-        head.Next = null;
-        
-        return newHead;
-    }
         public void Reverse2()
         {
             if (Head == null || Head.Next == null)
