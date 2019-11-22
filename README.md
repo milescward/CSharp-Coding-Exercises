@@ -68,6 +68,7 @@ Questions from LeetCode.com are prefixed by lc
 - [X] LeetCode Find Intersection (lcReverseLinkedListii.cs)
 - [X] LeetCode Merge Sorted Array (lcMergeSortedArray.cs)
 - [X] LeetCode Happy Number (lcHappyNumber.cs)
+- [X] LeetCode Add Digits (lcAddDigits.cs)
 
 ###### CRACKING THE CODING INTERVIEW
 
