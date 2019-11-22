@@ -2,7 +2,7 @@ namespace CSharp_Practice
 {
     /*Given a non-negative integer num, repeatedly add all its 
     digits until the result has only one digit.
-    
+
     Example:
     Input: 38
     Output: 2 
@@ -20,10 +20,9 @@ namespace CSharp_Practice
                 sum += num % 10;
                 num /= 10;
             }
-            if (sum < 10)
-                return sum;
-            else
+            if (sum/10 != 0)
                 return AddDigits(sum);
+            return sum;
         }
     }
 }
