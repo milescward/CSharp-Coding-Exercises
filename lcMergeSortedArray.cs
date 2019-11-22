@@ -21,17 +21,9 @@ namespace CSharp_Practice
         while (p1 >= 0 && p2 >= 0)
         {
             if(nums1[p1] < nums2[p2])
-            {
-                nums1[p] = nums2[p2];
-                p2--;
-                p--;
-            }
+                nums1[p--] = nums2[p2--];
             else
-            {
-                nums1[p] = nums1[p1];
-                p1--;
-                p--;
-            }    
+                nums1[p--] = nums1[p1--];
         }
         Array.Copy(nums2, 0, nums1, 0, p2 + 1);
     }
