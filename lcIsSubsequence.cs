@@ -29,9 +29,7 @@ namespace CSharp_Practice
                     pt++;
                 }
             }
-            if (ps == slen)
-                return true;
-            return false;
+            return ps == slen? true : false;
         }
     }
 }
