@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace CSharp_Practice
 {
+
+    // INCOMPLETE SOLUTION
     public class lcFindTownJudge
     {
         public int FindJudge(int N, int[][] trust) 
