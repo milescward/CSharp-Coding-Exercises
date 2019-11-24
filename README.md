@@ -71,6 +71,7 @@ Questions from LeetCode.com are prefixed by lc
 - [X] LeetCode Add Digits (lcAddDigits.cs)
 - [X] LeetCode Is Subsequence (lcIsSubsequence.cs)
 - [X] LeetCode Reverse Vowels in String (lcReverseVowelsInString.cs)
+- [X] LeetCode Remove Vowels in String (lcRemoveVowelsInString.cs)
 
 ###### CRACKING THE CODING INTERVIEW
 
