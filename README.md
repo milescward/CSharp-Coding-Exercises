@@ -34,7 +34,9 @@ Questions from LeetCode.com are prefixed by lc
 
 ### CODING PUZZLES AND PRACTICE
 -------------------------------
-###### LEETCODE
+#### LEETCODE
+
+###### Arrays and Strings:
 
 - [X] LeetCode TwoSum (lcTwoSum.cs)
 - [X] LeetCode ValidPalindrome (lcValidPalindrome.cs)
@@ -74,7 +76,7 @@ Questions from LeetCode.com are prefixed by lc
 - [X] LeetCode Remove Vowels in String (lcRemoveVowelsInString.cs)
 - [X] LeetCode Reverse Words in String iii  (lcReverseWordsInStringiii.cs)
 
-###### CRACKING THE CODING INTERVIEW
+#### CRACKING THE CODING INTERVIEW
 
 - [X] Cracking the Coding Interview PermutationIsPalindrome (cciPermutationIsPalindrome.cs)
 - [X] Cracking the Coding Interview URLify (cciURLify.cs)
