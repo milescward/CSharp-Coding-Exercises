@@ -16,11 +16,8 @@ namespace CSharp_Practice
                 if (i == strs[j].Length || strs[j][i] != c )
                 {
                     return strs[0].Substring(0, i);
-
                 }
-
             }
-
         }
         return strs[0];
     }
