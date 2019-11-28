@@ -97,7 +97,7 @@ namespace CSharp_Practice
 
         public void RemoveEdge(string start, string end)
         {
-            int i = -1
+            int i = -1;
             for (i = 0; i < listOfVertices.Count; i++)
             {
                 if (listOfVertices[i].Label == start)
