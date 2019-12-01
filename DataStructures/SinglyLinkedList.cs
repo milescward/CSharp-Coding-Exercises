@@ -5,19 +5,12 @@ namespace CSharp_Practice.DataStructures
 {
     public class SinglyLinkedList
     {
-        public Node First 
-        {
-            get
-            {
-                return stack.Peek();
-            }
-        }
-        private Stack<Node> stack;
+        private Node head { get; set; }
 
         public void Add(Node node)
         {
-            node.Next = First;
-            stack.Push(node);
+            node.Next = head;
+            head = node;
         }
     }
 
