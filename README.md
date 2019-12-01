@@ -76,6 +76,8 @@ Questions from LeetCode.com are prefixed by lc
 - [X] LeetCode Remove Vowels in String (lcRemoveVowelsInString.cs)
 - [X] LeetCode Reverse Words in String iii  (lcReverseWordsInStringiii.cs)
 - [X] LeetCode Set Matrix Zeros  (lcSetMatrixZeros.cs)
+- [X] LeetCode Longest Substring with Unique Characters  (lcLongestSubstringWithUniqueCharacters.cs)
+- [X] LeetCode Add Two Numbers  (lcAddTwoNumbers.cs)
 
 #### CRACKING THE CODING INTERVIEW
 
