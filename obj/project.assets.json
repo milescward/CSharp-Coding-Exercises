@@ -14,17 +14,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/milesward/Desktop/CSharp Practice/CSharp-Practice/CSharp Practice.csproj",
+      "projectUniqueName": "/Users/milesward/Desktop/New Csharp Practice/CSharp-Practice/CSharp Practice.csproj",
       "projectName": "CSharp Practice",
-      "projectPath": "/Users/milesward/Desktop/CSharp Practice/CSharp-Practice/CSharp Practice.csproj",
+      "projectPath": "/Users/milesward/Desktop/New Csharp Practice/CSharp-Practice/CSharp Practice.csproj",
       "packagesPath": "/Users/milesward/.nuget/packages/",
-      "outputPath": "/Users/milesward/Desktop/CSharp Practice/CSharp-Practice/obj/",
+      "outputPath": "/Users/milesward/Desktop/New Csharp Practice/CSharp-Practice/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/milesward/.config/NuGet/NuGet.Config"
+        "/Users/milesward/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

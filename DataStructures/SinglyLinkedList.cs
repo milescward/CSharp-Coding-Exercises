@@ -6,11 +6,21 @@ namespace CSharp_Practice.DataStructures
     public class SinglyLinkedList
     {
         private Node head { get; set; }
+        private int Count { get; set; }
 
         public void Add(Node node)
         {
             node.Next = head;
             head = node;
+        }
+
+        public void Display()
+        {
+            Node iterator = head;
+            while(iterator != null)
+            {
+                Console.WriteLine(iterator.Data);
+            }
         }
     }
 
