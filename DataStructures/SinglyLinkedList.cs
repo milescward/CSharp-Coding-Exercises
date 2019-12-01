@@ -5,21 +5,49 @@ namespace CSharp_Practice.DataStructures
 {
     public class SinglyLinkedList
     {
-        private Node head { get; set; }
-        private int Count { get; set; }
+        private Node Head { get; set; }
+        public int Count { get; private set; }
 
         public void Add(Node node)
         {
-            node.Next = head;
-            head = node;
+            if (Head == null)
+            {
+                Head = node;
+            }
+            else
+            {
+                node.Next = Head;
+                Head = node;
+            }
+            Count++;
+        }
+
+        // Deletes the first occurance of a target in the linked list
+        public void Delete(object target)
+        {
+            if (Head.Data == target)
+            {
+                Head = Head.Next;
+            }
+
+            Node iterator = Head;
+            while(iterator != null)
+            {
+                if (iterator.Next.Data == target)
+                {
+                    iterator.Next = iterator.Next.Next;
+                    Count--;
+                }
+            }
         }
 
         public void Display()
         {
-            Node iterator = head;
-            while(iterator != null)
+            Node iterator = Head;
+            while (iterator != null)
             {
                 Console.WriteLine(iterator.Data);
+                iterator = iterator.Next;
             }
         }
     }
