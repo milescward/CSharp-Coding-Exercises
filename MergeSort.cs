@@ -2,135 +2,40 @@ namespace CSharp_Practice
 {
     public class MergeSort
     {
-        /*
-        public int[] MergeSrt(int[] nums)
-        {
-            //this is recursive, so its going to call itself
-            //split into two arrays
+        // This portion of the 
+        public int[] Sort(int[] arr) {
+            // Get the length and middle of the array
+            int len = arr.Length, m = len / 2;
+            // If the array has a single element, return it.
+            if(len < 2) return arr;
+            // Create two new arrays right and left from the
+            // given array split down the middle
+            int[] left = new int[m], right = new int[len - m];
+            // Fill the new arrays with the elements from the original array
+            for (int i = 0; i < m; i++){
+                left[i] = arr[i];}
+            for (int i = 0; m < len; i++) {
+                right[i] = arr[m++];}
+            // Recursively break the smaller arrays down until they're
+            // all the size of just one single array.
+            Sort(left); Sort(right);
+            // Sort the two given arrays into the original given array
+            return Merge(left, right, arr);}
 
-            //declare length var and array vars
-            int[] left;
-            int[] right;
-            int n = nums.Length;
-
-            if (n % 2 == 0)
-            {
-                left = new int[n / 2];
-                right = new int[n / 2];
-            }
-            else
-            {
-                left = new int[n / 2];
-                right = new int[(n / 2) + 1];
-            }
-
-
-            //fill up each array
-
-            for (int i = 0; i < n; i++)
-            {
-                if (i < n / 2)
-                {
-                    left[i] = nums[i];
-                }
-                else
-                {
-                    right[i - n / 2] = nums[i];
-                }
-            }
-
-            left = MergeSrt(left);
-            right = MergeSrt(right);
-
-            return Merge(left, right);
-        }
-        public int[] Merge(int[] left, int[] right)
-        {
-            int[] result = new int[left.Length + right.Length];
-            int k = 0;
-            int j = 0;
-            int i = 0;
-            while (i < left.Length && j < right.Length)
-            {
-                if (left[i] < right[j])
-                {
-                    result[k] = left[i];
-                    k++;
-                    i++;
-                }
-                else
-                {
-                    result[k] = right[j];
-                    k++;
-                    j++;
-                }
-            }
-            while (i < left.Length)
-            {
-                result[k++] = left[i++];
-            }
-            while (j < right.Length)
-            {
-                result[k] = right[i];
-                k++;
-                i++;
-            }
-            return result;
-        }
-        */
-
-        public static void MergeSortStart(int[] arr)
-        {
-            int[] tmp = new int[arr.Length];
-            MergeSortHelper(arr, 0, arr.Length - 1, tmp);
-        }
-        public static void MergeSortHelper(int[] arr, int start, int end, int[] tmp)
-        {
-            if (start < end)
-            {
-                int mid = (start + end) / 2;
-                MergeSortHelper(arr, start, mid, tmp);
-                MergeSortHelper(arr, mid+1, end, tmp);
-                Merge(arr, start, mid, mid+1, end, tmp);
-            }
-        }
-
-        public static void Merge(int[] arr, int startA, int endA, int startB, int endB, int[] tmp)
-        {
-            int i = startA;
-            int j = startB;
-            int k = startA;
-            while(i <= endA && j <= endB)
-            {
-                if (arr[i] <= arr[j])
-            {
-                tmp[k] = arr[i];
-                i++;
-                k++;
-            }
-                else
-                {
-                    tmp[k] = arr[j];
-                    j++;
-                    k++;
-                }
-            }
-            while (i <= endA)
-            {
-                tmp[k] = arr[i];
-                i++;
-                k++;
-            }
-            while (j <= endB)
-            {
-                tmp[k] = arr[j];
-                j++;
-                k++;
-            }
-            for (k = startA; k < endB; k++)
-            {
-                arr[k] = tmp[k];
-            }
-        }
+        private int[] Merge(int[] l, int[] r, int[] a) {
+            // Create pointers for each array l, r, and a
+            int lp = 0, rp = 0, ap = 0;
+            // Fill the given array a with the elements from arrays l and
+            // r in ascending order until one of the arrays l and r
+            // is exhausted.
+            while (lp < l.Length && rp < r.Length)
+                a[ap++] = (l[lp] <= r[rp])? l[lp++] : r[rp++];
+            // Once the original while loop exits, fill up array a
+            // with the remaining elements from either array l or r
+            // Only one of these will execute
+            while (lp < l.Length)
+                a[ap++] = l[lp++];
+            while (rp < r.Length)
+                a[ap++] = r[rp++]; return a;} 
     }
 }
